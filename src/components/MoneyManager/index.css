@@ -1,0 +1,110 @@
+.moneyManagerAppContaier {
+  min-height: 100vh;
+  margin: 50px;
+}
+.accountHoldereConatiner {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/money-manager/money-manager-bg.png');
+  height: 20vh;
+  display: flex;
+  background-size: cover;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 100px;
+}
+.acoountHolder {
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'Roboto';
+  color: #475569;
+  margin-bottom: 0px;
+}
+.bankAccountDesc {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #475569;
+}
+.bankAccountDescSpan {
+  color: #0b69ff;
+}
+.transactionHistoryContainer {
+  display: flex;
+  margin-top: 30px;
+  justify-content: space-between;
+}
+.transactionContainer {
+  padding: 50px;
+  border: 1px solid #cbd5e1;
+  width: 40%;
+  border-radius: 10px;
+}
+.addTransactionHeading {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.formContainer {
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+}
+.title-amount-type-labelHeading {
+  font-size: 16px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  color: #7e858e;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.title-amount-type-input {
+  width: 100%;
+  height: 40px;
+  margin-bottom: 20px;
+  border-radius: 7px;
+  border: 1px solid #7e858e;
+  outline: none;
+  padding-left: 10px;
+  font-size: 15px;
+}
+.addBtn {
+  align-self: flex-start;
+  height: 40px;
+  width: 150px;
+  padding: 10px;
+  background-color: #0b69ff;
+  color: #ffffff;
+  font-size: 20px;
+  font-family: 'Roboto';
+  border-radius: 7px;
+  border: none;
+  outline: none;
+}
+.historyContainer {
+  border: 1px solid #cbd5e1;
+  width: 50%;
+  border-radius: 10px;
+  padding: 50px;
+}
+.historyHeading {
+  font-size: 20px;
+  font-weight: 600;
+  font-family: 'Roboto';
+}
+.tableContainer {
+  width: 90%;
+  padding-left: 0px;
+  margin-left: 0px;
+}
+.listTable {
+  width: 90%;
+  border: 1px solid #cbd5e1;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+}
+.transactionItemTitle-amount-type {
+  font-size: 16px;
+  font-weight: 400;
+  font-family: 'Roboto';
+}

@@ -1,0 +1,47 @@
+.moneyDetialsContainer {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+}
+.balance-income-expenses {
+  width: 30%;
+  border-radius: 10px;
+  display: flex;
+  align-items: Center;
+  padding: 20px;
+}
+.balance {
+  border: 1px solid #84cc16;
+  background-color: #ecfccb;
+}
+.income {
+  border: 1px solid #06b6d4;
+  background-color: #cffafe;
+}
+.expenses {
+  border: 1px solid #7c3aed;
+  background-color: #ede9fe;
+}
+.balance-income-expenses-image {
+  height: 60px;
+  width: 60px;
+  margin-right: 20px;
+}
+.balance-income-expenses-container {
+  margin-left:20px;
+}
+.balance-income-expenses-title {
+  font-size: 17px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #7e858e;
+  margin-bottom: 0px;
+}
+.balance-income-expenses-rs{
+  font-size: 25px;
+  font-weight: 400;
+  font-family: 'Roboto';
+  color: #7e858e;
+  margin-top:10px;
+}
